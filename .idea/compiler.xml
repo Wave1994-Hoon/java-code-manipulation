@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="reflection" />
-        <module name="java-manipulation-study" />
+        <module name="reflectionJava" />
       </profile>
     </annotationProcessing>
   </component>
