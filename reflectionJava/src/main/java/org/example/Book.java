@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class Book {
     private static String B = "Book";
 
