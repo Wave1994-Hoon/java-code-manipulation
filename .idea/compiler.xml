@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="proxy" />
         <module name="reflection" />
+        <module name="proxySpring" />
         <module name="reflectionJava" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="proxySpring" options="-parameters" />
       <module name="reflection" options="-parameters" />
     </option>
   </component>
