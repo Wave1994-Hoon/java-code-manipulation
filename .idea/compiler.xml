@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="proxy" />
+        <module name="dynamicProxy" />
         <module name="reflection" />
         <module name="proxySpring" />
         <module name="reflectionJava" />
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dynamicProxy" options="-parameters" />
       <module name="proxySpring" options="-parameters" />
       <module name="reflection" options="-parameters" />
     </option>

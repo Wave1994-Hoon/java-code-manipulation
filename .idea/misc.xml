@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/reflection/pom.xml" />
         <option value="$PROJECT_DIR$/proxySpring/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamicProxy/pom.xml" />
       </list>
     </option>
   </component>

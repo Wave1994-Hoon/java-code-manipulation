@@ -1,4 +1,4 @@
-package com.example.proxyspring;
+package com.example.dynamicproxy;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -6,18 +6,23 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+@ExtendWith(SpringExtension.class)
+@SpringBootTest
+public class BookRepositoryTest {
 
-class BookServiceTest {
-
-    BookService bookService = new BookServiceProxy(new DefaultBookService());
+    @Autowired
+    BookRepository bookRepository;
 
     @Test
     public void di() {
+        assertNotNull(bookRepository);
+
         Book book = new Book();
         book.setTitle("spring");
-        bookService.rent(book);
+        bookRepository.save(book);
+        bookRepository.findAll();
     }
 
 }
