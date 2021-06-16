@@ -10,6 +10,7 @@
         <module name="dynamicProxy" />
         <module name="reflection" />
         <module name="proxySpring" />
+        <module name="lombook-demo" />
         <module name="reflectionJava" />
       </profile>
     </annotationProcessing>

@@ -11,6 +11,7 @@
     <modules>
         <module>reflectionJava</module>
         <module>proxy</module>
+        <module>lombook-demo</module>
     </modules>
 
     <properties>
