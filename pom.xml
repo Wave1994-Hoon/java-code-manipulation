@@ -12,6 +12,8 @@
         <module>reflectionJava</module>
         <module>proxy</module>
         <module>lombook-demo</module>
+        <module>annomoja</module>
+        <module>magic-moja</module>
     </modules>
 
     <properties>

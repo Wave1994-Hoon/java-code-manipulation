@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="proxy" />
-        <module name="dynamicProxy" />
         <module name="reflection" />
         <module name="proxySpring" />
+        <module name="annomoja" />
         <module name="lombook-demo" />
         <module name="reflectionJava" />
+        <module name="dynamicProxy" />
+        <module name="magic-moja" />
       </profile>
     </annotationProcessing>
   </component>
